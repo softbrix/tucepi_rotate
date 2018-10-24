@@ -1,0 +1,31 @@
+{
+  "name": "tucepi-rotate",
+  "version": "0.1.0",
+  "description": "Rotate and flip a jpeg buffer according to the exif orientation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softbrix/tucepi-rotate.git"
+  },
+  "keywords": [
+    "node",
+    "image",
+    "rotate",
+    "exif",
+    "orientation",
+    "flip"
+  ],
+  "author": "Andreas Sehr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softbrix/tucepi-rotate/issues"
+  },
+  "homepage": "https://github.com/softbrix/tucepi-rotate#readme",
+  "dependencies": {
+    "jimp": "^0.5.4",
+    "mocha": "^5.2.0"
+  }
+}
