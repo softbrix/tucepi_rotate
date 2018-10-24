@@ -3,7 +3,7 @@ const fs = require('fs');
 const mediaRotate = require('../index.js');
 
 describe('Vega Media Info', function () {
-  var jpgFile = './test/img1.JPG';
+  var jpgFile = './test/img1.jpg';
 
   xit('should rotate according to exif with output', function () {
     let buffer = fs.readFileSync(jpgFile);
