@@ -1,6 +1,6 @@
 {
   "name": "tucepi-rotate",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Rotate and flip a jpeg buffer according to the exif orientation",
   "main": "index.js",
   "scripts": {
